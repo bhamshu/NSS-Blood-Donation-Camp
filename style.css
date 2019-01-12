@@ -12,13 +12,7 @@ Version: 1.0
 #BASIC TYPOGRAPHY
 #HEADER	
 #MENU 
-#ABOUT US
-#VIDEO
-#SCHEDULE
-#SPEAKERS
 #VENUE
-#PRICING PLANS
-#REGISTER FORM
 #FAQ
 #OUR
 #CONTACT US
@@ -282,7 +276,7 @@ button:focus {
 .mu-hero-featured-area {
 	display: inline;
 	float: left;
-	padding: 60px 0 150px;
+	padding: 60px 0 100px;
 	width: 100%;
 }
 
@@ -315,6 +309,24 @@ button:focus {
 	display: inline-block;
 	margin-top: 10px;
 	font-weight: 600;
+}
+
+.mu-event-social-media {
+	background-color: #fff;
+	color: #333;
+	padding: 5px 10px;
+	display: inline-block;
+	margin-top: 10px;
+	font-weight: 700;
+}
+
+.onesignal-customlink-container {
+	background-color: #333;
+	color: #fff;
+	padding: 5px 10px;
+	display: inline-block;
+	margin-top: 10px;
+	font-weight: 700;
 }
 
 .mu-event-counter-area {
@@ -441,123 +453,6 @@ button:focus {
 }
 
 
-
-/*--------------------*/
-/* VIDEO */
-/*--------------------*/
-
-
-#mu-video {
-	background-image: url("assets/images/about-video-bg.jpg");
-	background-attachment: fixed;
-	background-position: center center;
-	-webkit-background-size: cover;
-	background-size: cover;
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
-.mu-video-overlay {
-	display: inline;
-	float: left;
-	opacity: 0.85;
-	width: 100%;
-}
-
-.mu-video-area {
-	display: inline;
-	float: left;
-	padding: 200px 0;
-	text-align: center;
-	width: 100%;
-}
-
-.mu-video-area h2 {
-	color: #fff;
-}
-
-.mu-video-content {
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
-.mu-video-play-btn,
-.mu-video-close-btn {
-	color: #fff;
-	font-size: 22px;
-	border: 2px solid #fff;
-	border-radius: 50%;
-	width: 60px;
-	display: inline-block;
-	height: 60px;
-	line-height: 55px;
-	text-align: center;
-	margin-top: 100px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.mu-video-play-btn:hover,
-.mu-video-play-btn:focus {
-	color: #fff;
-	-webkit-transform: scale(1.2);
-	        transform: scale(1.2);
-}
-
-.mu-video-close-btn {
-	border-radius: 50%;
-	color: #fff;
-	font-size: 18px;
-	border: 2px solid #fff;
-	position: absolute;
-	top: 0;
-	right: 15%;
-	display: inline-block;
-	height: 50px;
-	line-height: 45px;
-	text-align: center;
-	margin-top: 100px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-	width: 50px;
-}
-
-.mu-video-close-btn:hover,
-.mu-video-close-btn:focus {
-	color: #fff;
-	-webkit-transform: scale(1.2);
-	        transform: scale(1.2);
-}
-
-.mu-video-iframe-area {
-	background-color: rgba(0,0,0,0.84);
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	padding: 12% 0;
-	text-align: center;
-	z-index: 9999;
-	display: none;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.mu-video-iframe-display {
-	display: block;
-}
-
-.mu-video-iframe-area iframe {
-
-}
 
 
 /*--------------------*/
@@ -711,80 +606,6 @@ button:focus {
 }
 
 
-/*--------------------*/
-/* SPEAKERS */
-/*--------------------*/
-
-
-#mu-speakers {
-	background-color: #fff;
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
-.mu-speakers-area {
-	display: inline;
-	float: left;
-	padding: 100px 0;
-	width: 100%;
-}
-
-.mu-speakers-content{
-	display: inline;
-	float: left;
-	margin-top: 50px;
-	width: 100%;
-}
-
-.mu-single-speakers {
-	padding: 0 10px;
-	outline: none;
-	text-align: center;
-	-webkit-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-}
-
-.mu-speakers-slider .slick-next {
-	right: -60px;
-}
-
-.mu-speakers-slider .slick-prev {
-	left: -60px;
-}
-
-.mu-single-speakers-info {
-	display: inline;
-	float: left;
-	margin-top: 20px;
-	width: 100%;
-}
-
-.mu-single-speakers-info h3 {
-	margin-bottom: 4px;
-	font-size: 22px;
-}
-
-.mu-single-speakers-info p {
-	margin-bottom: 5px;
-}
-
-.mu-single-speakers-social {
-
-}
-
-.mu-single-speakers-social li {
-	display: inline-block;
-}
-
-.mu-single-speakers-social li a {
-	display: inline-block;
-	margin-right: 5px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
 
 /*--------------------*/
 /* VENUE */
@@ -839,252 +660,6 @@ button:focus {
 	margin-bottom: 25px;
 }
 
-
-/*--------------------*/
-/* PRICING */
-/*--------------------*/
-
-
-#mu-pricing {
-	background-color: #fff;
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
-.mu-pricing-area {
-	display: inline;
-	float: left;
-	padding: 100px 0;
-	width: 100%;
-}
-
-.mu-pricing-conten {
-	display: inline;
-	float: left;
-	margin-top: 50px;
-	width: 100%;
-}
-
-.mu-single-price {
-	background-color: #f8f8f8;
-	display: inline;
-	float: left;
-	text-align: center;
-	position: relative;
-	width: 100%;
-	padding: 15px;
-	overflow: hidden;
-}
-
-.mu-single-price-head {
-	color: #555;
-	display: inline;
-	float: left;
-	width: 100%;
-	margin-bottom: 10px;
-	margin-top: 10px;
-}
-
-.mu-single-price-head .mu-currency {
-	font-weight: bold;
-	font-size: 30px;
-}
-
-.mu-single-price-head .mu-rate {
-	font-size: 60px;
-	font-weight: bold;
-	line-height: 0.9;
-	letter-spacing: 3px;
-}
-
-.mu-single-price-head .mu-time {
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 0;
-	font-style: italic;
-}
-
-.mu-single-price .mu-price-title {
-	color: #555;
-	font-size: 22px;
-	padding: 10px 0;
-}
-
-.mu-single-price ul {
-	list-style: none;
-}
-
-.mu-single-price ul li{
-	list-style: none;
-	color: #555;
-}
-
-.mu-register-btn {
-	background-color: #fff;
-	border: 1px solid #555;
-	color: #555;
-	margin-top: 20px;
-	padding: 10px 40px;
-	text-align: center;
-	display: inline-block;
-	margin-bottom: 20px;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.mu-register-btn:hover,
-.mu-register-btn:focus,
-.mu-popular-price .mu-register-btn {
-	color: #fff;
-}
-
-.mu-popular-price .mu-price-tag {
-	color: #fff;
-	display: inline-block;
-	position: absolute;
-	top: 15px;
-	left: -62px;
-	padding: 10px 60px;
-	font-size: 15px;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-	font-weight: 700;
-	transform: rotate(-45deg);
-	text-align: center;
-}
-
-/*--------------------*/
-/* REGISTER */
-/*--------------------*/
-
-#mu-register {
-	background-image: url("assets/images/register-bg.jpg");
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-	display: inline;
-	float: left;
-	position: relative;
-	width: 100%;
-}
-
-#mu-register::before {
-	background: rgba(0,0,0,0.9);
-	bottom: 0;
-	content: '';
-	left: 0;
-	top: 0;
-	right: 0;
-	position: absolute;
-	opacity: 0.9;
-}
-
-.mu-register-area {
-	display: inline;
-	float: left;
-	padding: 150px 0;
-	width: 100%;
-}
-
-.mu-register-area .mu-title,
-.mu-register-area p {
-	color: #fff;
-}
-
-.mu-register-content {
-	display: inline;
-	float: left;
-	width: 100%;
-	text-align: center;
-	padding: 0 200px;
-	margin-top: 50px;
-}
-
-.mu-register-form .form-group {
-	margin-bottom: 25px;
-}
-
-.mu-register-form .form-control {
-	height: 50px;
-	color: #fff;
-	background-color: transparent;
-	border: 2px solid #fff;
-}
-
-.mu-register-form select.form-control option{
-	color: #333;
-}
-
-.mu-register-form .form-control::-webkit-input-placeholder {
-	color: #fff;
-	font-size: 15px;
-}
-
-.mu-register-form .form-control:-moz-placeholder { /* Firefox 18- */
-	color: #fff;
-	font-size: 15px; 
-}
-
-.mu-register-form .form-control::-moz-placeholder {  /* Firefox 19+ */
-	color: #fff;
-	font-size: 15px;
-}
-
-.mu-register-form .form-control:-ms-input-placeholder {  
-	color: #fff;
-	font-size: 15px;
-}
-
-.mu-reg-submit-btn {
-	background-color: transparent;
-	border: 2px solid #fff;
-	color: #fff;
-	padding: 12px 75px;
-	margin-top: 20px;
-	letter-spacing: 1px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-
-/*--------------------*/
-/* SPONSORS */
-/*--------------------*/
-
-#mu-sponsors {
-	background-color: #fff;
-	display: inline;
-	float: left;
-	width: 100%;
-}
-
-.mu-sponsors-area {
-	display: inline;
-	float: left;
-	padding: 100px 0;
-	width: 100%;
-}
-
-.mu-sponsors-content {
-	display: inline;
-	float: left;
-	margin-top: 50px;
-	width: 100%;
-}
-
-.mu-sponsors-single {
-	background: #eee;
-	display: inline;
-	float: left;
-	margin-top: 10px;
-	margin-bottom: 15px;
-	width: 100%;
-}
 
 
 /*--------------------*/
@@ -1580,7 +1155,7 @@ button:focus {
 	.mu-hero-featured-area {
 		padding: 60px 0 60px;
 	}
-
+	
 	.mu-hero-featured-content {
 		margin-top: 20px;
 	}
